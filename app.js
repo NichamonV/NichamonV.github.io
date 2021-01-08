@@ -8,11 +8,13 @@ function getData() {
   document.getElementById("result-1").innerHTML = " ";
   document.getElementById("result-2").innerHTML = " ";
   document.getElementById("result-3").innerHTML = " ";
+  document.getElementById("sp-1").remove();
+  document.getElementById("sp-2").remove();
   var result = 0.0;
   var total = 0.0;
   var base = 0.0;
   var i = 1;
-
+  
   cost = parseFloat(document.getElementById("cost").value);
   invest = parseFloat(document.getElementById("ih").value);
   added = parseFloat(document.getElementById("added").value);
